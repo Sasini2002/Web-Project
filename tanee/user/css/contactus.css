@@ -1,0 +1,38 @@
+div.div {
+    background-color: lightgrey;
+    width: 800px;
+    border: 0px solid rgb(251, 250, 249);
+    padding: 40px;
+    margin: 100px;
+    
+    }
+    #backimage{
+        border: 1px solid rgb(255, 255, 255);
+        background: url("https://images.squarespace-cdn.com/content/v1/55494a27e4b00615d45b924a/1639001153671-5W31PW8XT1HJDVGQZ9MF/unsplash-image-M4E7X3z80PQ.jpg?format=1500w");
+        background-size: 100% 600px;
+        background-repeat: no-repeat;
+        padding: 200px ;
+        border-radius: 10px;}
+        P.p1{
+            font-family:	Copperplate;
+            color: rgb(91, 87, 87);
+            font-size: 40px;
+           }
+           P.p2{
+            font-family:	Copperplate;
+            color: rgb(255, 19, 6);
+            font-size: 60px
+            ;
+           }
+           .button {
+            background-color:rgb(241, 130, 10);
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;}

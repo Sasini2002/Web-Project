@@ -1,0 +1,42 @@
+p{
+    font-family:	Copperplate;
+    color: rgb(20, 19, 19);
+    font-size: 40px;
+}
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/674/138/desktop-wallpaper-bakery-background-bakery.jpg");
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+select{
+    width: 50%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+p.p1{
+    font-family:	Copperplate;
+    color: rgb(43, 42, 42);
+    font-size: 20px;
+}
+textarea{
+    width: 100%;
+    color:transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+p.p2{
+    color: transparent;
+}

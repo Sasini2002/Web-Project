@@ -1,0 +1,60 @@
+#backimage{
+    border: 1px solid rgb(255, 255, 255);
+    background: url("https://img.freepik.com/premium-photo/meat-grill-fried-pork-pan-with-red-wine-rustic-table_220925-6428.jpg?w=2000");
+    background-size: 100% 630px;
+    background-repeat: no-repeat;
+    padding: 270px ;
+    border-radius: 10px;}
+ body{
+
+background-image: url("https://e0.pxfuel.com/wallpapers/674/138/desktop-wallpaper-bakery-background-bakery.jpg");
+ }  
+ P.p1
+ {
+    font-family:	Copperplate;
+    color: rgb(10, 10, 10);
+    font-size: 80px;
+    
+   }
+   div.div
+    {
+    background-color: rgb(211, 211, 211);
+    width: 11s00px;
+    border: 6px solid rgb(123, 120, 116);
+    padding:40px;
+    margin: 100px;}
+    P.p2
+    {
+        font-family:	Copperplate;
+        color: rgb(42, 45, 45);
+        font-size: 20px;
+     }
+     P.p3{
+        font-family:	Copperplate;
+        color: rgb(45, 50, 50);
+        font-size: 50px;
+       }
+       P.p4
+       {
+           font-family:	Copperplate;
+           color: rgb(42, 45, 45);
+           font-size: 30px;
+        }
+  /*images one by one */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #f8f8f7;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 30px;
+  }  
+  img{
+    border-radius: 10px;
+  }

@@ -1,0 +1,34 @@
+p{
+    font-family:	Copperplate;
+    color: rgb(20, 19, 19);
+    font-size: 40px;
+}
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/674/138/desktop-wallpaper-bakery-background-bakery.jpg");
+}
+fieldset {
+    background-color: #eeeeee;
+    border: 2px groove (internal value);
+    position: relative;
+  }
+  
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 50px;
+  }
+  
+  input {
+    margin: 4px;
+  }
+  .btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}

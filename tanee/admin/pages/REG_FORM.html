@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Admin Register form</title>
+<link rel="stylesheet" href="../../user/css/reg.css">
+
+<style type="text/css">
+.error
+{
+	color:red;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:16px;
+}
+h1.h1{
+	color: rgb(8, 73, 253);
+}
+h2.h2{
+	color: rgb(246, 241, 241);
+}
+</style>
+
+<script type="text/javascript">
+function formValidation()
+{
+var uname = document.registration.fname;
+var uemail = document.registration.email;
+var pass = document.registration.password;
+var conpass = document.registration.conpassword;
+
+if(Emptyfield(uname,uemail,pass,conpass))
+{    
+	var p1=pass.value;
+	var p2=conpass.value;
+	
+	if(matchpass(p1,p2))
+	{
+	return true;
+	}
+}
+return false;
+} //end of formValidation
+
+function Emptyfield(uname,uemail,pass,conpass)
+{ 
+var uname_len = uname.value.length;
+var uemail_len = uemail.value.length;
+var pass_len = pass.value.length;
+var conpass_len = conpass.value.length;
+
+if (uname_len == 0 || pass_len == 0||conpass_len== 0||uemail_len == 0)
+{
+alert("Fields should not be empty ");
+   
+return false;
+}
+else
+{
+return true;
+}
+}// end of Emptyfield
+
+function matchpass(pass,conpass){
+
+if(pass==conpass){
+return true;
+}
+else
+{
+  alert("password must be same");
+  
+    return false;
+}
+}
+</script>
+
+</head>
+
+<body bgcolor="">
+ 
+<h1 class="h1"><center>Admin registration form</h1>
+<h2 class="h2">Fill all the fields and submit</h2>
+
+
+<form name='registration' method="post" action="INSERDATA.php" 
+onSubmit="return formValidation();">
+<fieldset >
+<legend>Create your new account:</legend>
+  
+<label for="fname">Name:</label><br>
+<input type="text" name="fname" size="50" /><br>
+<label for="email">Email:</label></li><br>
+<input type="text" name="email" size="50" /><br>
+<label for="password">Password:</label><br>
+<input type="password" name="password" size="50" /><br>
+<label for="Confirm Password">Confirm Password:</label><br>
+<input type="password" name="conpass" size="50" /><br>
+<input type="submit" name="submit" value="submit" />
+
+</fieldset>
+</form>
+</body>
+</html>

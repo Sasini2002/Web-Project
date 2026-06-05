@@ -1,0 +1,24 @@
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+    background-color: #444040;
+    color: aliceblue;
+  }
+  legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 0px 5px 5px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+  body{
+    background-image: url("https://img.freepik.com/premium-photo/restaurant-menu-set-food-dishes-black-stone-background-top-view_187166-58905.jpg?w=2000");
+  }

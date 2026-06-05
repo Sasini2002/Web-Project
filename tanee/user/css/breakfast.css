@@ -1,0 +1,51 @@
+
+         #backimage{
+            border: 1px solid rgb(255, 255, 255);
+            background: url("https://www.foodrepublic.com/img/gallery/korean-fried-chicken-was-invented-on-the-battlefield/l-intro-1687386179.jpg");
+            background-size: 100% 630px;
+            background-repeat: no-repeat;
+            padding: 270px ;
+            border-radius: 10px;}
+            
+          
+            body{
+                background-image: url(https://images.pexels.com/photos/3616764/pexels-photo-3616764.jpeg?cs=srgb&dl=pexels-la-miko-3616764.jpg&fm=jpg);
+            }
+           P.p1{
+            font-family:	Copperplate;
+            color: rgb(235, 242, 242);
+            font-size: 50px;
+           }
+           P.p2{
+            font-family:	Copperplate;
+            color: rgb(91, 87, 87);
+            font-size: 40px;
+           }
+           p.p3{
+            color: rgb(26, 25, 25);
+            font-family:	Copperplate;
+            font-size: 30px;
+           }
+           div.div {
+            background-color: lightgrey;
+            width: 800px;
+            border: 9px solid rgb(241, 130, 10);
+            padding: 40px;
+            margin: 100px;
+            
+            }
+            hr.new4 {
+            border: 2px solid rgb(241, 130, 10);
+            }
+            .button {
+            background-color:rgb(241, 130, 10);
+            border: none;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;}

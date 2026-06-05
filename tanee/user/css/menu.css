@@ -1,0 +1,111 @@
+    
+ 
+    #backimage{
+border: 1px solid black;
+background: url("https://t4.ftcdn.net/jpg/02/43/11/95/360_F_243119507_sFqCazZfPjdC0EgHLJZ7ByUUJLDmweLf.jpg");
+background-size: 100% 540px;
+background-repeat: no-repeat;
+padding: 200px ;
+border-radius: 10px;
+  }
+  ul.a{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+}
+ul.a {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: #04AA6D;
+}
+p.font{
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  text-align: center;
+  color:rgb(248, 248, 250);
+  font-size: 70px;
+}
+
+header {
+background-color:  #fdfafa;
+padding: 20px;
+text-align: center;
+font-size: 35px;
+color: rgb(0, 0, 0);
+font: italic small-caps bold 12px/30px Georgia, serif;
+
+}
+nav {
+float: left;
+width: 100%;
+font: icon;
+background: #fdfafa;
+padding: 20px;
+font-size: 15px;
+}
+p.font2{
+    font-family: monospace;
+    color: #fdfafa;
+}
+P.font3{
+    font-family: Impact;
+    color: #423d3d;
+}
+#backimage1{
+border: 1px solid black;
+background: url("https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnJlYWtmYXN0fGVufDB8fDB8fHww&w=1000&q=80");
+background-size: 100% 540px;
+background-repeat: no-repeat;
+padding: 150px ;
+}
+#backimage2{
+border: 1px solid black;
+background: url("https://images.squarespace-cdn.com/content/v1/5e44592cc9053c29286d8beb/1595262581899-V6GPEMOAAN8PSYR7TZKG/Lunch+Lady+Chicken.jpg");
+background-size: 100% 540px;
+background-repeat: no-repeat;
+padding: 150px ;
+}
+#backimage3{
+border: 1px solid black;
+background: url("https://images.unsplash.com/photo-1673166513836-14f93e6f2c0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTV8fHxlbnwwfHx8fHw%3D&w=1000&q=80");
+background-size: 100% 540px;
+background-repeat: no-repeat;
+padding: 150px ;
+}
+.button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 8px;}
+

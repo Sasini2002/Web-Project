@@ -1,0 +1,43 @@
+
+         fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px groove (internal value);
+        background-color: #444040;
+        color: aliceblue;
+      }
+      legend {
+        background-color: gray;
+        color: white;
+        padding: 5px 0px 5px 5px;
+      }
+      
+      input {
+        margin: 5px;
+      }
+      body{
+        color:blue;
+        background-size: cover;
+        background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg");
+      }   
+      .text-block {
+       position: absolute;
+       bottom: 20px;
+        right: 20px;
+       background-color: black;
+       color: white;
+       padding-left: 20px;
+       padding-right: 20px;
+       font-family:Courier New;
+} 
+      
+
+
+
+
+

@@ -1,0 +1,121 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/brown-cutting-board-with-spices-vegetables-concrete-kitchen-table_215990-579.jpg?w=2000");
+}
+#backimage{
+    border: 1px solid rgb(255, 255, 255);
+    background: url("https://c0.wallpaperflare.com/preview/573/1002/365/lights-light-glow-design.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    padding: 150px ;
+   
+    border-radius: 10px;}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      }
+      
+      li {
+      float: left;
+      }
+      
+      li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+      background-color: #111;
+      }
+      .active {
+      background-color: #04AA6D;
+      }
+      P.p1{
+        font-family:	Copperplate;
+        color: rgb(245, 144, 13);
+        font-size: 50px;
+       }
+    
+    .button {
+    background-color:rgb(241, 130, 10);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;}
+    div.div {
+        background-color: lightgrey;
+        width: 800px;
+        border: 6px solid rgb(241, 130, 10);
+        padding: 40px;
+        margin: 100px;}
+        P.p2{
+            font-family:	Copperplate;
+            color: rgb(91, 87, 87);
+            font-size: 20px;
+           }
+
+           .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            background-color:transparent;
+            padding: 10px;
+          }
+          
+          .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 30px;
+            font-size: 30px;
+          }  
+          .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            background-color: ransparent;
+            padding: 10px;
+          }
+          
+          .grid-container1 > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 30px; }
+            #backimage1{
+              border: 3px solid rgb(21, 21, 21);
+              background: transparent;
+              background-size: 50% 100px;
+              background-repeat: no-repeat;
+              padding: 50px 
+             
+          }
+          h1{
+            font-family:	Copperplate;
+            color:  rgb(0, 0, 0);
+          }
+          h3{
+            font-family:	Copperplate;
+            color:  rgb(91, 87, 87);
+          }
+          img{
+            border-radius: 10px;
+          }

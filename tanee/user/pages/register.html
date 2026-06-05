@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="../includes/insertuserdata.php">
+    <link rel="stylesheet" href="../includes/connection.php">
+    <link rel="stylesheet" href="../css/reg.css">
+    <style type="text/css">
+        .error
+        {
+            color:red;
+            font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+            font-size:16px;
+        }
+        </style>
+        
+        <script type="text/javascript">
+       function validate_form()
+{
+	var valid=true;
+	if(document.registration.username.value=="")
+	{
+		alert("Please fill user name filed");
+		document.registration.username.focus();
+		valid=false;
+	}
+	else if(document.registration.email.valuse=="")
+	{
+		alert("please fill email feild");
+		document.registration.email.focus();
+		vslid=false;
+	}
+  else if(document.registration.Password.valuse=="")
+	{
+		alert("please fill password feild");
+		document.registration.Password.focus();
+		vslid=false;
+	}
+  else if(document.registration.conpass.valuse=="")
+	{
+		alert("please fill password feild");
+		document.registration.conpass.focus();
+		vslid=false;
+	}
+	return valid;
+}//end of the validation form
+        
+        function matchpass(password,conpass){
+        
+        if(password==conpass){
+        return true;
+        }
+        else
+        {
+          alert("password must be same");
+          
+            return false;
+        }
+        
+        }
+        
+        </script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        
+    </head>
+        
+        <body>
+         <div class="container">
+            <div class="text-block">
+                <h1><center>User registration form</h1>
+                    <h2>Fill all the fields and submit</h2>
+              </div>    
+        
+        
+        
+        <form name='registration' method="post" align="center" action="insertuserdata.php" 
+        onSubmit="return validate_form();">
+        <fieldset >
+            <legend>Create your new account:</legend>
+          
+        <label for="username">Name:</label> <br>
+        <input type="text" name="username" size="50" /> <br>
+         <label for="email">Email:</label> <br>
+        <input type="text" name="email" size="50" /> <br>
+        <label for="Password">Password:</label> <br>
+        <input type="password" name="password" size="50" /> <br>
+        <label for="Confirm Password">Confirm Password:</label> <br>
+        <input type="password" name="conpass" size="50" /> <br>
+        <input type="submit" name="submit" value="Submit">
+        
+        </fieldset>
+        </form>
+    </div>
+        </body>
+        </html>
